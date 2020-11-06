@@ -10,3 +10,18 @@
 [submodule "Tools/ProperTree"]
 	path = Tools/ProperTree
 	url = https://github.com/corpnewt/ProperTree
+[submodule "Tools/EFI-Backup-Restore"]
+	path = Tools/EFI-Backup-Restore
+	url = https://github.com/corpnewt/EFI-Backup-Restore.git
+[submodule "Tools/OC-Update"]
+	path = Tools/OC-Update
+	url = https://github.com/corpnewt/OC-Update.git
+[submodule "Tools/GenSMBIOS"]
+	path = Tools/GenSMBIOS
+	url = https://github.com/corpnewt/GenSMBIOS.git
+[submodule "Tools/gibMacOS"]
+	path = Tools/gibMacOS
+	url = https://github.com/corpnewt/gibMacOS.git
+[submodule "Tools/CPU-Name"]
+	path = Tools/CPU-Name
+	url = https://github.com/corpnewt/CPU-Name.git
