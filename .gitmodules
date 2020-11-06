@@ -4,3 +4,6 @@
 [submodule "Tools/KextExtractor"]
 	path = Tools/KextExtractor
 	url = https://github.com/corpnewt/KextExtractor.git
+[submodule "Tools/OC-tool"]
+	path = Tools/OC-tool
+	url = https://github.com/rusty-bits/OC-tool.git
