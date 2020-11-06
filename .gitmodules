@@ -1,0 +1,6 @@
+[submodule "Tools/MountEFI"]
+	path = Tools/MountEFI
+	url = https://github.com/corpnewt/MountEFI.git
+[submodule "Tools/KextExtractor"]
+	path = Tools/KextExtractor
+	url = https://github.com/corpnewt/KextExtractor.git
