@@ -3,18 +3,18 @@
 set -e -u
 
 githubRepos=(
-    "acidanthera/VirtualSMC"
     "acidanthera/AppleALC"
-    "acidanthera/WhateverGreen"
-    "acidanthera/HibernationFixup"
     "acidanthera/BrightnessKeys"
-    "acidanthera/AirportBrcmFixup"
+    "acidanthera/IntelMausi"
     "acidanthera/Lilu"
-    "acidanthera/RTCMemoryFixup"
+    "acidanthera/AirportBrcmFixup"
+    "acidanthera/HibernationFixup"
     "acidanthera/CPUFriend"
     "acidanthera/NVMeFix"
     "acidanthera/BrcmPatchRAM"
-    "acidanthera/IntelMausi"
+    "acidanthera/RTCMemoryFixup"
+    "acidanthera/VirtualSMC"
+    "acidanthera/WhateverGreen"
 )
 
 cd Kexts
