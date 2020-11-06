@@ -25,3 +25,6 @@
 [submodule "Tools/CPU-Name"]
 	path = Tools/CPU-Name
 	url = https://github.com/corpnewt/CPU-Name.git
+[submodule "Tools/USB-Installer-Creator"]
+	path = Tools/USB-Installer-Creator
+	url = https://github.com/corpnewt/USB-Installer-Creator.git
