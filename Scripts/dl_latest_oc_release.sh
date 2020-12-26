@@ -2,22 +2,18 @@
 
 set -e -u
 
-githubRepos=(
-    "acidanthera/OpenCorePkg"
-)
+githubOC="acidanthera/OpenCorePkg"
 
 cd OC
 
-for githubRepo in ${githubRepos[@]}; do
-    echo "\n"
-    echo "Downloading ${githubRepo}..."
+echo "\n"
+echo "Downloading ${githubOC}..."
 
-    curl -s https://api.github.com/repos/${githubRepo}/releases/latest \
-    | grep "RELEASE" \
-    | grep "browser_download_url.*zip" \
-    | cut -d : -f 2,3 \
-    | tr -d \" \
-    | wget -qi -
+curl -s https://api.github.com/repos/${githubOC}/releases/latest \
+| grep "RELEASE" \
+| grep "browser_download_url.*zip" \
+| cut -d : -f 2,3 \
+| tr -d \" \
+| wget -qi -
 
-    echo "Downloaded ${githubRepo}!"
-done
+echo "Downloaded ${githubOC}!"

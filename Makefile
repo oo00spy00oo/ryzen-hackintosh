@@ -17,6 +17,7 @@ install-tools:
 
 update-tools:
 	git submodule update --init --recursive
+	git submodule update --remote --merge
 
 extract-kext:
 	./Scripts/extract_kexts.sh
