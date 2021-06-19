@@ -28,3 +28,6 @@
 [submodule "Tools/USB-Installer-Creator"]
 	path = Tools/USB-Installer-Creator
 	url = https://github.com/corpnewt/USB-Installer-Creator.git
+[submodule "Tools/OCConfigCompare"]
+	path = Tools/OCConfigCompare
+	url = https://github.com/corpnewt/OCConfigCompare.git
