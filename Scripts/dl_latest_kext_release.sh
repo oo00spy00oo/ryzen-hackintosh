@@ -15,6 +15,7 @@ githubRepos=(
     "acidanthera/RTCMemoryFixup"
     "acidanthera/VirtualSMC"
     "acidanthera/WhateverGreen"
+    "OpenIntelWireless/IntelBluetoothFirmware"
 )
 
 cd Kexts
